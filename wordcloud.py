@@ -5,7 +5,7 @@ from PIL import Image
 from wordcloud import WordCloud  , STOPWORDS
 import cv2
 
-x=str(input('Enter the title : '))
+x=str(input('Enter the Word : '))
 title=wikipedia.search(x)[0]
 page=wikipedia.page(title)
 text=page.content
