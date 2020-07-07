@@ -19,9 +19,9 @@ wc = WordCloud(background_color = 'white',max_words=244,mask=background,
                stopwords = stopwords)
 
 wc.generate(text)
-wc.to_file('1.png')
+wc.to_file('word_cloud.png')
 
-img=cv2.imread('1.png')
+img=cv2.imread('word_cloud.png')
 cv2.imshow("Word Cloud",img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
