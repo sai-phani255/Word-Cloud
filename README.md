@@ -2,7 +2,8 @@
 This code creates a word colud.
 
 For execution type :  python wordcloud.py
-    in anaconda prompt
+
+In anaconda prompt
     
 Enter the word for which you want to create a word cloud...
 
